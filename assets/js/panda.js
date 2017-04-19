@@ -32,37 +32,41 @@ function reiniciarTodo (){
   for(var i=0;i<restaurar.length;i++){
     restaurar[i].style.display = "inline-block";
     }
-};
+}
 
 
 function eliminar1(){
   fotoPanda1.style.display = "none";
-};
+}
+
 function eliminar2(){
   fotoPanda2.style.display = "none";
-};
+}
+
 function eliminar3(){
   fotoPanda3.style.display = "none";
-};
+}
+
 function eliminar4(){
   fotoPanda4.style.display = "none";
-};
+}
 
 function esconderIzq(){
   text1.style.visibility = "hidden";
   document.getElementById("texto1").id="textoOculto1";
   document.getElementById("izquierda").id="mostrarIzquierda";
 
-
-};
+}
 function esconderDer(){
   text2.style.visibility = "hidden";
   document.getElementById("texto2").id="textoOculto2";
   document.getElementById("derecha").id="mostrarDerecha";
-};
+}
+
 function mostrarDer(){
   textoOculto2.style.visibility = "visible";
-};
+}
+
 function mostrarIzq(){
   textoOculto1.style.visibility = "visible";
-};
+}

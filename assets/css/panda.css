@@ -1,10 +1,11 @@
 body{
-  background: #D8D8D8;
+  background: black;
   font-family: 'Poppins', sans-serif;
   text-align: center;
+  color:white;
 }
 ul{
-  background-color: #2E2E2E;
+  background-color: purple;
   text-align: justify;
 }
 li{
@@ -13,24 +14,24 @@ li{
   list-style: none;
 }
 a{
-  color: #F2F2F2;
+  color: yellow;
   text-decoration: none;
   padding: 7px;
 }
 a:hover{
-  color: #8A0829;
+  color: black;
 }
 .icono{
   width: 40px;
   height: 40px;
 }
 span{
-  color: #8A0829;
+  color: red;
   margin: 0 100px;
 }
 .fotos{
   display: inline-block;
-  background: #6E6E6E;
+  background: yellow;
   width: 150px;
   height: 150px;
   padding: 6px;
@@ -42,7 +43,7 @@ span{
 }
 .enlace{
   display: inline-block;
-  background: #2E2E2E;
+  background: green;
   color: white;
   margin-top: 20px;
   margin-left: 5px;
@@ -66,11 +67,13 @@ p{
 .cerrar {
   display: inline-block;
   position: absolute;
-  text-shadow: 5px #585858;
+  text-shadow: 5px red;
   top: -5px;
   left: 7px;
-  color: #FAFAFA;
+  color: white;
   font-size: 30px;
   font-weight: bold;
   transition: 0.3s;
+  cursor:pointer;
 }
+
